@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssured">
+    <test name="checkStatus">
+        <classes>
+            <class name="raghvendra.learning.DeserializeJsonArray">
+                <!--<methods>
+                    <include name = "requestWithParameters"/>
+                </methods>-->
+            </class> <!-- test.aftergroups.AfterGroupsBehaviorTest -->
+        </classes>
+    </test> <!-- testng -->
+</suite> <!-- Default Suite -->
+
